@@ -8,10 +8,9 @@ dotenv.config();
 module.exports = {
   solidity: "0.8.7",
   networks:{
-    mumbai:{
-    url: process.env.POLYGON_MUMBAI,
+    rinkeby:{
+    url: process.env.RINKEBY,
     accounts:[process.env.PRIVATE_KEY],
-    
     },
   },
   etherscan:{
